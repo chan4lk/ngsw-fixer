@@ -29,7 +29,7 @@ Promise.resolve()
 
   function readManifest(output) {
     console.log(`reading ${output}`)
-    return fs.opendir(output)
+    return fs.readdir(output)
   }
 
   function generateNewConfig(file){

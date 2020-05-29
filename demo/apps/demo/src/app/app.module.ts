@@ -7,7 +7,12 @@ import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })],
+  imports: [
+    BrowserModule,
+    ServiceWorkerModule.register('../../ngsw-worker.js', {
+      enabled: environment.production,
+    }),
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
