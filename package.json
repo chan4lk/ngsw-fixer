@@ -1,6 +1,6 @@
 {
   "name": "@chan4lk/ngsw-fixer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Angular Service Worker Fixer",
   "main": "index.js",
   "scripts": {
