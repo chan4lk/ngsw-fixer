@@ -20,5 +20,8 @@
   },
   "bin": {
     "ngsw-fixer": "./index.js"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.8"
   }
 }
